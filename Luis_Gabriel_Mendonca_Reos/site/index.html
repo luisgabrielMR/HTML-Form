@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vaga de Emprego</title>
+        <meta charset="utf-8">
+	    <meta name="author" content="Luis G. M. Reos">                                  <!--Como Colocar Comentario :) -->
+        <meta name="description" content="Vaga de emprego, Oportunidades e Salario"> 
+
+        <link rel="icon" href="imagens/Formulario.png" type="image/png">
+    </head>
+    
+    <body>
+            <main>
+            <article>
+                <section>
+                    <h1>Procurando Uma vaga de Emprego?</h1>
+                    <p>Preencha este formulario para buscar a vaga perfeita para você.</p>
+                </section>
+            </article>
+
+
+
+            <form>
+
+                <label input type="text" id="User" name="Name"> Seu nome completo: </label>
+                <br>
+                <input type="text" name="usuario" placeholder="Nome">
+                <br><br>
+
+                <label for="start">Sua Data de Nascimento</label>
+                <input type="date" id="start" name="trip-start" value="2023-09-08" min="1900-01-01" max="2023-09-08">
+                <br><br>
+
+                <label for="Email" >Seu Email</label>
+                <input for="email" name="email" placeholder="Email@email.com">
+                <br><br>
+
+                <label for="telefone"> Seu Telefone</label>
+                <input type="tel" id="Telefone" name="Telefone" placeholder="(00)12345-6789">
+                <br><br>
+
+                <label for="Cor">Escolha uma Cor que te represente</label>
+                <input type="color" id="cor" name="cor" placeholder="Vermelho">
+                <br><br>
+
+                <label for="Obs">Escreva alguma de suas caracteristicas</label>
+                <input type="obs" id="Obs" name="Obs" placeholder="Observação">
+                <br><br>
+
+                <p>Quais Idiomas que voce fala:</p>
+                <input type="checkbox" id="port" name="port" >
+                <label for="Idioma">Português</label>
+                <br>
+                <input type="checkbox" id="ingl" name="ingles" >
+                <label for="Idioma">Ingles</label>
+                <br>
+                <input type="checkbox" id="esp" name="espanhol" >
+                <label for="Idioma">Espanhol</label>
+                <br>
+                <input type="checkbox" id="mand" name="mandarim" >
+                <label for="Idioma">Mandarim</label>
+                <br><br>
+
+                <label for="Gene">Selecione seu Genero:</label><br>
+                <input type="radio" id="Masc" name="Gen" value="Masc">
+                <label for="Masc">Masculino</label><br>
+                <input type="radio" id="Fem" name="Gen" value="Fem">
+                <label for="Fem">Feminino</label><br>
+                <input type="radio" id="out" name="Gen" value="out">
+                <label for="out">Outro</label><br>
+                <br><br>
+
+                <label for="Area">Area de interesse:</label>
+                <select id="TI" name="TI">
+                    <optgroup label="TI">
+                        <option>Segurança Digital</option>
+                        <option>Programação de jogos</option>
+                        <option>Sistemas</option>
+                        <option>Design de interação</option>
+                    </optgroup>
+                    <optgroup label="Construção">
+                        <option>Predreiro</option>
+                        <option>Arquiteto</option>
+                        <option>Engenheiro Civil</option>
+                    </optgroup>
+                    <optgroup label="Estagios">
+                        <option>Matutino</option>
+                        <option>Vespertino</option>
+                        <option>Noturno</option>
+                    </optgroup>     
+                </select>
+                <br><br>
+
+                <label>Qual a média salarial desejada:</label><br>
+                <input type="range" id="valor" name="Valor" min="900" max="20000" step="50"> 
+                
+
+            </form>
+    
+    
+        </main>
+    </body>
+    
+    <footer>
+        <a href="" target="_self">Acesse a nossa páginas de Curso</a>
+    </footer>
+
+</html>
